@@ -1,0 +1,47 @@
+.flashcard {
+    box-shadow: 1px 2px 5px grey;
+    width: 200px;
+    position: relative;
+}
+
+img{
+    width: 200px; 
+}
+.img{
+    position: relative; 
+}
+.img~div {
+    padding: 4px;
+}
+
+.group-name {
+    text-align: center;
+    font-weight: bold;
+}
+.group-description {
+    text-align: left;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.group-cards {
+    text-align: center;
+}
+
+.view-cards {
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.group_image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: -5rem;
+    margin-left: 70px;
+    position: relative;
+
+}
+

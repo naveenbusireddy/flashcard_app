@@ -4,39 +4,58 @@ function CreateFlashcard() {
 
     return (
         <>
-            <div>
-                <h1>Create Flashcard Page</h1>
-            </div>
-            <div>
-                <h1>Any place in your app!</h1>
-                <form>
-                    <div>
-                        <label htmlFor='flashcardName'>Flash Card Name<span>*</span></label>
-                        <input type="text" name="flashcardName" required />
-                        <label htmlFor='description'>Description</label>
-                        <input type="text-area" name="description" />
-                        <label htmlFor='myfile'>Select a file:</label>
-                        <input type="file" name="myfile"></input>
-                    </div>
+            <div style={{ textAlign: "left" }}>
+                <div>
+                    <h3>Create FlashCard </h3>
+                </div>
+                {/* <form>
+                    <label>
+                        Create Group<span style={{ color: "red" }}>*</span>
+                    </label>
+                    <input
+                        type="text"
+                        name="group-name"
+                        required
+                        placeholder="Enter Group Name"
+                    />
                     <br />
-                    <div>
-                        <label htmlFor='term'>Enter Term</label>
-                        <input type="text" name="term" />
-                        <label htmlFor='term-definition'>Enter Definition</label>
-                        <input type="text-area" name="term-definition" />
-                        <label htmlFor='term-image'>Select a file:</label>
-                        <input type="file" name="term-image"></input>
-                        <button>Edit Term</button>
-                        <button>Delete</button>
-                    </div>
-
-                    <button type="submit">
-                        create
-                    </button>
+                    <input type="file" accept="images" />
+                    <br />
+                    <label>
+                        Add Description<span style={{ color: "red" }}>*</span>
+                    </label>
+                    <input
+                        type="text"
+                        required
+                        placeholder="Enter few words about group"
+                    />
                 </form>
             </div>
-
-
+            <br />
+            <div style={{ textAlign: "left" }}>
+                <form>
+                    <label>
+                        Enter Term<span style={{ color: "red" }}>*</span>
+                    </label>
+                    <input
+                        type="text"
+                        name="group-name"
+                        required
+                        placeholder="Enter Group Name"
+                    />
+                    <br />
+                    <label>
+                        Add Definition<span style={{ color: "red" }}>*</span>
+                    </label>
+                    <input
+                        type="text"
+                        required
+                        placeholder="Enter few words about group"
+                    />
+                    <br />
+                    <input type="file" accept="images" />
+                </form> */}
+            </div>
         </>
     )
 }
